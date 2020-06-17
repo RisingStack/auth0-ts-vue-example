@@ -1,0 +1,4 @@
+{
+  "domain": "your tenant's domain",
+  "clientId": "your app's clientId"
+}
