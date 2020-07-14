@@ -11,7 +11,7 @@ type Auth0PluginOptions = {
 }
 
 /** Define a default action to perform after authentication */
-const DEFAULT_REDIRECT_CALLBACK = (appState: any) =>
+const DEFAULT_REDIRECT_CALLBACK = (appState) =>
   window.history.replaceState({}, document.title, window.location.pathname)
 
 let instance: VueAuth

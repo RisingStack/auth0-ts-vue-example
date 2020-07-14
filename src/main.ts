@@ -7,7 +7,7 @@ import { domain, clientId } from '../auth.config.json'
 Vue.use(Auth0Plugin, {
   domain,
   clientId,
-  onRedirectCallback: (appState: any) => {
+  onRedirectCallback: (appState) => {
     router.push(
       appState && appState.targetUrl
         ? appState.targetUrl

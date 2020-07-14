@@ -9,7 +9,7 @@ export type Auth0Options = {
   [key: string]: string | undefined
 }
 
-export type RedirectCallback = (appState: any) => void
+export type RedirectCallback = (appState) => void
 
 
 @Component({})
